@@ -1,4 +1,60 @@
 ---
 layout: splash
-permalink: /
 ---
+
+{% if site.data.match %}
+<h1>Current match</h1>
+<div style="text-align: center; width: 50%">
+  {% if site.data.match.winner == 1 %}
+  <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(144, 238, 144, 0.5); display: inline-block; padding: 1rem 1rem; vertical-align: middle">
+  {% elsif site.data.match.winner == 2 %}
+  <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(255, 127, 127, 0.5); display: inline-block; padding: 1rem 1rem; vertical-align: middle">
+  {% else %}
+  <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 1rem 1rem; vertical-align: middle">
+  {% endif %}
+    <b>Team 1</b><br>
+    {% for member in site.data.match.team_1 %}
+      {{ member }} <br>
+    {% endfor %}
+  </div>
+  <div style="display: inline-block; vertical-align: middle">
+    vs.
+  </div>
+  {% if site.data.match.winner == 2 %}
+  <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(144, 238, 144, 0.5); display: inline-block; padding: 1rem 1rem; vertical-align: middle">
+  {% elsif site.data.match.winner == 1 %}
+  <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(255, 127, 127, 0.5); display: inline-block; padding: 1rem 1rem; vertical-align: middle">
+  {% else %}
+  <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 1rem 1rem; vertical-align: middle">
+  {% endif %}
+  <b>Team 2</b><br>
+  {% for member in site.data.match.team_2 %}
+    {{ member }} <br>
+  {% endfor %}
+  </div>
+</div>
+
+<br><br>
+{% endif %}
+
+{% if site.data.table %}
+<h1>Table</h1>
+<table>
+{% for row in site.data.table %}
+  <thead>
+  {% if forloop.first %}
+    <tr class="header">
+	  {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+  {% endif %}
+  </thead>
+  <tbody>
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  </tbody>
+{% endfor %}
+</table>
+{% endif %}
