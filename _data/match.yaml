@@ -1,7 +1,6 @@
 team_1:
-  - Player 1 
-  - Player 2
+- Erich
+- Big Vik
 team_2:
-  - Player 3
-  - Player 4
-winner: 1
+- Milos
+winner: 0
