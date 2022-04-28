@@ -1,0 +1,40 @@
+---
+layout: single
+---
+
+<div class="page__inner-wrap">
+  <section class="page__content" itemprop="text">
+    {{ content }}
+    {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+  </section>
+
+  <section class="page__content" itemprop="text">
+	{{ "## Comicstyle" | markdownify }}
+	<div style="text-align: center; width: 100%">
+  	{% include carousel.html height="40" unit="vh" duration="7" number="1" %}
+	</div>
+  </section>
+
+  <section class="page__content" itemprop="text">
+	{{ "## Murals" | markdownify }}
+    <img src="{{ "/assets/images/ww-images/murals00.png" | absolute_url }}" alt="Mural">
+  </section>
+
+  <section class="page__content" itemprop="text">
+	{{ "## Storyboard" | markdownify }}
+    {% include carousel.html height="40" unit="vh" duration="7" number="3" %}
+  </section>
+
+  <section class="page__content" itemprop="text">
+	{{ "## Tusche" | markdownify }}
+    {% include carousel.html height="40" unit="vh" duration="7" number="4" %}
+  </section>
+
+  <section class="page__content" itemprop="text">
+	{{ "## Portraits" | markdownify }}
+    {% include carousel.html height="40" unit="vh" duration="7" number="2" %}
+  </section>
+
+  
+  {% include post_pagination.html %}
+</div>
