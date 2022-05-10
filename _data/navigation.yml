@@ -1,3 +1,5 @@
 main:
+  - title: "Anmeldung"
+    url: /anmeldung/
   - title: "About"
     url: /about/
