@@ -2,6 +2,12 @@
 layout: single
 ---
 
+<html>
+<head>
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url}}">
+</head>
+
+<body>
 <div class="page__inner-wrap">
   <section class="page__content" itemprop="text">
     {{ content }}
@@ -38,3 +44,6 @@ layout: single
   
   {% include post_pagination.html %}
 </div>
+
+</body>
+</html>

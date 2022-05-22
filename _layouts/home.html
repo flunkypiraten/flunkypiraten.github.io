@@ -1,6 +1,44 @@
 ---
 layout: splash
 ---
+<html>
+<head>
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url}}">
+</head>
+
+<body>
+<div class="page__inner-wrap">
+  <section class="page__content" itemprop="text">
+    <h1>Get ready for the Meisterschaften 2022! <br> August 13</h1>
+    🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉<br>
+    <a href="https://tiny.cc/flunky22" target="_blank" rel="noopener noreferrer">Registration</a> is now open!<br>
+    Register before June 30th to get <b>10% OFF</b> with our early bird code <code style="background-color: #111827; color: #CA8A04; font-family: 'Roboto Mono'; font-size: 0.8em">EARLYTATE10</code>!!!
+    <br>
+    🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+
+    <div style="text-align: center; width: 100%">
+      <h1>Time until August 13 2022, 14:00</h1>
+      <div id="countdown">
+        <ul>
+          <li class="licd"><span id="days"></span>days</li>
+          <li class="licd"><span id="hours"></span>Hours</li>
+          <li class="licd"><span id="minutes"></span>Minutes</li>
+          <li class="licd"><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+      <div id="content" class="emoji">
+        <span>🥳</span>
+        <span>🎉</span>
+        <span>🎂</span>
+      </div>
+    </div>
+
+    <hr>
+    Below you can find an <i>example</i> view of how you can follow the event <b>live</b> with the current/last match (green &rarr; won, red &rarr; lost)
+    and the overall tournament table.
+    <br><br>
+  </section>
+</div>
 
 {% if site.data.match %}
 {% if site.data.match.winner == 0 %}
@@ -94,3 +132,37 @@ layout: splash
         <div style="background-color: #a85d78;"><img src="{{ "/assets/images/placeholder.png" | absolute_url }}" alt=""> </div>
 	</div>
 </div>
+
+</body>
+</html>
+
+
+<script>
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  const countDown = new Date("Aug 13, 2022 14:00:00").getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+</script>
