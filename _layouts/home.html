@@ -4,6 +4,7 @@ layout: splash
 <html>
 <head>
   <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url}}">
+  <link rel="stylesheet" href="{{ "/assets/css/animation.css" | absolute_url}}">
 </head>
 
 <body>
@@ -32,6 +33,22 @@ layout: splash
         <span>🎂</span>
       </div>
     </div>
+	<div style="text-align: center; width: 100%; margin-top:-100px; margin-bottom: -150px;">
+    <div class="ball">||</div>
+    <div class="bottles-center">
+      <div class="bottles-container">
+        <div class="bottle purple">
+          <div class="bottle-cap"></div>
+          <div class="top-part">
+            <div class="tilt"></div>
+          </div>
+          <div class="bottle-body">
+            <div class="sticker"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
 
     <hr>
     Below you can find an <i>example</i> view of how you can follow the event <b>live</b> with the current/last match (green &rarr; won, red &rarr; lost)
@@ -46,7 +63,8 @@ layout: splash
 {% else %}
 <h1>Last match</h1>
 {% endif %}
-<div style="text-align: center; width: 100%">
+  
+  <div style="text-align: center; width: 100%">
   {% if site.data.match.winner == 1 %}
   <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(144, 238, 144, 0.5); display: inline-block; padding: 1rem 1rem; vertical-align: middle">
   {% elsif site.data.match.winner == 2 %}
@@ -74,10 +92,29 @@ layout: splash
     {{ member }} <br>
   {% endfor %}
   </div>
+<br><br>
+    {% if site.data.match.winner == 0 %}
+	<div style="z-index: 0; text-align: center; width: 100%; margin-top:-150px; margin-bottom: -150px;">
+    <div class="ball">||</div>
+    <div class="bottles-center">
+      <div class="bottles-container">
+        <div class="bottle purple">
+          <div class="bottle-cap"></div>
+          <div class="top-part">
+            <div class="tilt"></div>
+          </div>
+          <div class="bottle-body">
+            <div class="sticker"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+    {% endif %}
+
+{% endif %}
 </div>
 
-<br><br>
-{% endif %}
 
 {% if site.data.table %}
 <h1>Table</h1>
@@ -129,8 +166,13 @@ layout: splash
 		</a>
 	</div>
 	<div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
-        <div style="background-color: #a85d78;"><img src="{{ "/assets/images/placeholder.png" | absolute_url }}" alt=""> </div>
+		<a href="https://galabau-ks.com/" target="_blank" rel="noopener noreferrer">
+		<img src="{{ "/assets/images/logo-ksgalabau.png" | absolute_url }}" alt="K+s Galabau">
+		</a>
 	</div>
+	<!--div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
+        <div style="background-color: #a85d78;"><img src="{{ "/assets/images/placeholder.png" | absolute_url }}" alt=""> </div>
+	</div-->
 </div>
 
 </body>
