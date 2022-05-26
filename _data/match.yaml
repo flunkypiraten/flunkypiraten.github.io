@@ -1,7 +1,7 @@
 team_1:
-- BigVik
-- Dr. Dörg
-team_2:
 - Erich
 - Hutz
-winner: 1
+team_2:
+- BigVik
+- Dr. Dörg
+winner: 0
