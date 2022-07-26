@@ -31,7 +31,7 @@ layout: splash
         <span>🎂</span>
       </div>
     </div>
-	<div style="text-align: center; width: 100%; margin-top:-100px; margin-bottom: -150px;">
+	<!--div style="text-align: center; width: 100%; margin-top:-100px; margin-bottom: -150px;">
     <div class="ball">||</div>
     <div class="bottles-center">
       <div class="bottles-container">
@@ -46,11 +46,11 @@ layout: splash
         </div>
       </div>
     </div>
-	</div>
+	</div-->
 
     <hr>
-    Below you can find an <i>example</i> view of how you can follow the event <b>live</b> with the current/last match (green &rarr; won, red &rarr; lost)
-    and the overall tournament table.
+    Below you can follow the event <b>live</b> with the current/last match (green &rarr; won, red &rarr; lost)
+    and the overall tournament ranking.
     <br><br>
   </section>
 </div>
@@ -116,6 +116,11 @@ layout: splash
 
 {% if site.data.table %}
 <h1>Table</h1>
+<div class="middle">
+  <span class="legenddot" style="background-color: rgba(144, 238, 144, 0.5);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for semi final</i></span>
+  <span>&nbsp;&nbsp;&nbsp;</span>
+  <span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for quarter final</i></span>
+</div>
 <table>
 {% for row in site.data.table %}
   <thead>
@@ -128,9 +133,19 @@ layout: splash
   {% endif %}
   </thead>
   <tbody>
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
+    {% if "" contains forloop.index %}
+    <tr style="background-color: rgba(144, 238, 144, 0.5);">
+    {% elsif "" contains forloop.index %}
+    <tr style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 25%, rgba(120, 196, 120, 0.5) 25%);">
+    {% else %}
+    <tr>
+    {% endif %}
+      {% for pair in row %}
+      <td>
+        {{ pair[1] }}
+      </td>
+      {% endfor %}
+    </tr>
   </tbody>
 {% endfor %}
 </table>
