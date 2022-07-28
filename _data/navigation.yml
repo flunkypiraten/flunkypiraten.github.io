@@ -1,5 +1,7 @@
 main:
   - title: "Anmeldung"
     url: /anmeldung/
+  - title: "World ranking"
+    url: /worldranking/
   - title: "About"
     url: /about/

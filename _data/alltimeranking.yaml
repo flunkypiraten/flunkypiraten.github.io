@@ -1,0 +1,53 @@
+tournaments:
+  - name: "FBMS20"
+    date: 01.08.2020
+  - name: "FBMS21"
+    date: 07.08.2021
+  - name: "FBMS22"
+    date: 13.08.2022
+rolling_range: 3
+points: {
+  "1":  2000,
+  "2":  1200,
+  "3":   960,
+  "4":   720,
+  "QF":  360,
+  "R16": 180,
+  "R32":  90,
+}
+players:
+  - name: "Erich"
+    results: { FBMS20: "QF", FBMS21: "3"}
+  - name: "Milos"
+    results: { FBMS20: "2", FBMS21: "1"}
+  - name: "BigVik"
+    results: { FBMS20: "1", FBMS21: "1"}
+  - name: "Dr. R. Andy"
+    alias:
+    - "Randy"
+    - "Die Hoden Gottes"
+    results: { FBMS20: "3", FBMS21: "3"}
+  - name: "Crazy"
+    results: { FBMS20: "4"}
+  - name: "Coach Keiler"
+    alias:
+    - "Keiler"
+    results: { FBMS20: "2", FBMS21: "QF"}
+  - name: "Flipper"
+    results: { FBMS20: "3", FBMS21: "QF"}
+  - name: "Lugge"
+    results: { FBMS20: "1"}
+  - name: "Richie"
+    results: { FBMS20: "4", FBMS21: "QF"}
+  - name: "Heini"
+    results: { FBMS21: "2"}
+  - name: "Hodi"
+    results: { FBMS21: "4"}
+  - name: "Dr. Dörg"
+    results: { FBMS21: "2"}
+  - name: "DJ Borsten"
+    results: { FBMS21: "4"}
+  - name: "GOAT"
+    alias:
+    - "Jessi"
+    results: { FBMS21: "QF"}
