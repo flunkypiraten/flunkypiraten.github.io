@@ -19,7 +19,7 @@ The ranking system utilizes a three-year rolling format.
 |  8 | Heini                           						| 			| 1 (2021) || 1200 |
 |    | Dr. Dörg                        						| 			| 1 (2021) || 1200 |
 | 10 | Richie                          						| 			||| 1080 |
-| 11 | Crazy                           						| 			|||  720 |
+| 11 | Crazylegs *formerly known as* Crazy				    | 			|||  720 |
 |    | Hodi                            						| 			|||  720 |
 |    | DJ Borsten                      						| 			|||  720 |
 | 14 | GOAT *formerly known as* Jessi    						| 			|||  360 |

@@ -27,7 +27,9 @@ players:
     - "Randy"
     - "Die Hoden Gottes"
     results: { FBMS20: "3", FBMS21: "3"}
-  - name: "Crazy"
+  - name: "Crazylegs"
+    alias:
+    - "Crazy"
     results: { FBMS20: "4"}
   - name: "Coach Keiler"
     alias:
