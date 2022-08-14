@@ -8,7 +8,7 @@ Here we honor every player who ever competed at an official Flunkypiraten tourna
 The ranking system utilizes a three-year rolling format.  
 _Cut-off date: 14.08.2022_
 
-| Rank | Player | All-time titles 🥇 | All-time 2nd 🥈 | All-time third 🥉 | Ranking points |
+| Rank | Player | All-time titles 🥇 | All-time 2nd 🥈 | All-time 3rd 🥉 | Ranking points |
 |------|------|------|------|------|------:|
 |  1 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | BigVik 												            | 2 (2020, 2021) 	| 1 (2022) | | 5200 |
 |  2 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Milos                           						            | 1 (2021)	    | 2 (2020, 2022) | | 4400 |
