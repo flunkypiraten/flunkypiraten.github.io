@@ -12,6 +12,13 @@ def read_ranking_file(fn):
     return data
 
 
+def get_tournament(tname, data):
+    for tnmt in data["tournaments"]:
+        if tnmt["name"] == tname:
+            return tnmt
+    return None
+
+
 def calc_ranking(data):
     tnmts = []
     today = datetime.today()
@@ -24,7 +31,8 @@ def calc_ranking(data):
         points = 0
         for tname, res in player["results"].items():
             if tname in [t["name"] for t in tnmts]:
-                points += data["points"][res]
+                category = get_tournament(tname, data)["category"]
+                points += data["points"][category][res]
         player["points"] = points
     ranking = sorted(data["players"], key=lambda p: p["points"], reverse=True)
     return ranking
