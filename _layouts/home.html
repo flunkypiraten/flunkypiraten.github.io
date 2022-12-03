@@ -125,9 +125,9 @@ layout: splash
 {% if site.data.table %}
 <h1>Table</h1>
 <div class="middle">
-  <span class="legenddot" style="background-color: rgba(144, 238, 144, 0.5);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for semi final</i></span>
+  <span class="legenddot" style="background-color: rgba(144, 238, 144, 0.5);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for final</i></span>
   <span>&nbsp;&nbsp;&nbsp;</span>
-  <span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for quarter final</i></span>
+  <span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;</i></span>
 </div>
 <table>
 {% for row in site.data.table %}
@@ -141,9 +141,9 @@ layout: splash
   {% endif %}
   </thead>
   <tbody>
-    {% if "1 2 3 4 5 6" contains forloop.index %}
+    {% if "1 2" contains forloop.index %}
     <tr style="background-color: rgba(144, 238, 144, 0.5);">
-    {% elsif "7 8 9 10" contains forloop.index %}
+    {% elsif "33" contains forloop.index %}
     <tr style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 25%, rgba(120, 196, 120, 0.5) 25%);">
     {% else %}
     <tr>
