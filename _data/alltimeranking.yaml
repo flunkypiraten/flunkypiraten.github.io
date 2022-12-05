@@ -43,7 +43,7 @@ points: {
 }
 players:
   - name: "Erich"
-    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2",}}
+    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2"}
   - name: "Milos"
     results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1"}
   - name: "BigVik"
@@ -68,7 +68,7 @@ players:
   - name: "Richie"
     results: { FBMS20: "4", FBMS21: "QF"}
   - name: "Heini"
-    results: { FBMS21: "2", FBMS22: "3", WC22: "5"}
+    results: { FBMS21: "2", FBMS22: "3", WC22: "QF"}
   - name: "Hodi"
     results: { FBMS21: "4"}
   - name: "Dr. Dörg"

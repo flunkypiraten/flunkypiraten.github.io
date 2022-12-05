@@ -42,7 +42,7 @@ def main():
     fn = "_data/alltimeranking.yaml"
     data = read_ranking_file(fn)
     ranking = calc_ranking(data)
-    for rank,player in enumerate(ranking, 1):
+    for rank, player in enumerate(ranking, 1):
         fullname = player["name"]
         if "alias" in player:
             fullname += " formerly known as "
