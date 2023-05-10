@@ -1,3 +1,7 @@
+---
+permalink: /dsgvo/
+title: "Informationspflicht DS-GVO"
+---
 # Datenschutzrechtliche Informationspflichten nach Art. 13 DS-GVO
 
 ## Für die Datenverarbeitung Verantwortlicher
