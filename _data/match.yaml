@@ -1,9 +1,9 @@
 team_1:
-- BigVik
-- Erich
 - Tom
-team_2:
-- Dr. Dörg
+- Erich
 - Michi
+team_2:
 - Hohi
-winner: 1
+- BigVik
+- Dr. Dörg
+winner: 0
