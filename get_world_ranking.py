@@ -156,9 +156,9 @@ def main():
         with open(ranking_fn) as f:
             ranking_file = f.read()
         ranking_file = re.sub(r"_Cut-off date: .*", "_Cut-off date: {}_".format(cut_off), ranking_file)
-        ranking_file_pre_table = ranking_file.split("<!-- table tag start -->\n")[0]
-        ranking_file_post_table = ranking_file.split("<!-- table tag end -->\n")[-1]
-        ranking_file = ranking_file_pre_table + "<!-- table tag start -->\n" + table + "<!-- table tag end -->\n" + ranking_file_post_table
+        ranking_file_pre_table = ranking_file.split("<!-- table tag start -->\n\n")[0]
+        ranking_file_post_table = ranking_file.split("\n\n<!-- table tag end -->")[-1]
+        ranking_file = ranking_file_pre_table + "<!-- table tag start -->\n\n" + table + "\n\n<!-- table tag end -->" + ranking_file_post_table
         with open(ranking_fn, "w") as f:
             f.write(ranking_file)
     else:
@@ -167,7 +167,7 @@ def main():
             sorted(list(data["tournaments"]), key=lambda t: datetime.strptime(t["date"], "%d.%m.%Y"))[
                 -1
             ]["date"],
-            "%d.%m.%?!?jedi=1, Y",?!? (*_*days: float=...*_*, seconds: float=..., microseconds: float=..., milliseconds: float=..., minutes: float=..., hours: float=..., weeks: float=..., fold: int=...) ?!?jedi?!?"
+            "%d.%m.%Y",
         ) - timedelta(days=1)
         ranking_prev = calc_ranking(data, last_tournament)
 
