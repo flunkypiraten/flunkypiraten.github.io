@@ -8,6 +8,7 @@ Here we honor every player who ever competed at an official Flunkypiraten tourna
 The ranking system utilizes a three-year rolling format.  
 _Cut-off date: 04.12.2022_
 
+<!-- table tag start -->
 | Rank | Player | All-time titles 🥇 | All-time 2nd 🥈 | All-time 3rd 🥉 | Ranking points |
 |------|------|------|------|------|------:|
 | 1 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | BigVik | 2 (2020, 2021) | 1 (2022) |   | 5200 |
@@ -26,6 +27,7 @@ _Cut-off date: 04.12.2022_
 | 14 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Hodi |   |   |   | 720 |
 | 15 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | GOAT *formerly known as* Jessi |   |   |   | 360 |
 | 16 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Laui |   |   |   | 180 |
+<!-- table tag end -->
 
 <!-- symbols: up: ▲ down: ▼ same: - new: &#x1F195; -->
 <!-- colors: green: #008450 red: #B81D13 orange: #EFB700; -->
