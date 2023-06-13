@@ -16,9 +16,6 @@ layout: splash
     <p style="text-align: center;"> 
     🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉<br>
     <a href="https://tiny.cc/flunky23" target="_blank" rel="noopener noreferrer">Registration</a> is now open!<br>
-    Use our early bird PROMO code <br>
-    <tt style="background-color: black; color: #96B8C7; border-radius: 10px;">&nbsp;EARLYFLUNK10&nbsp;</tt> <br>
-    and register now to save 10%! <br>
     🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉<br>
     </p> 
     </div>
@@ -125,9 +122,9 @@ layout: splash
 {% if site.data.table %}
 <h1>Table</h1>
 <div class="middle">
-  <span class="legenddot" style="background-color: rgba(144, 238, 144, 0.5);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for final</i></span>
+  <span class="legenddot" style="background-color: rgba(144, 238, 144, 0.5);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for quarter-final</i></span>
   <span>&nbsp;&nbsp;&nbsp;</span>
-  <span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for semi-final</i></span>
+  <!--span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for semi-final</i></span-->
 </div>
 <table>
 {% for row in site.data.table %}
@@ -141,9 +138,9 @@ layout: splash
   {% endif %}
   </thead>
   <tbody>
-    {% if "99" contains forloop.index %}
+    {% if forloop.index <= 0 %}
     <tr style="background-color: rgba(144, 238, 144, 0.5);">
-    {% elsif "88" contains forloop.index %}
+    {% elsif forloop.index < 0 and forloop.index >  5 %}
     <tr style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 25%, rgba(120, 196, 120, 0.5) 25%);">
     {% else %}
     <tr>
