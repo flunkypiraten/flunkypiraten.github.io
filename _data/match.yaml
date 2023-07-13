@@ -1,7 +1,7 @@
 team_1:
-- DummyPlayer6
-- DummyPlayer2
-team_2:
 - DummyPlayer5
+- DummyPlayer3
+team_2:
+- DummyPlayer6
 - DummyPlayer4
 winner: 0
