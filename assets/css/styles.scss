@@ -85,6 +85,25 @@ body {
 
 .breakLiCol {
     display: block;
-    width: 33%;
+    width: 30%;
     float: left;
 }
+
+/* container */
+.responsive-two-column-grid-small {
+    display:block;
+}
+
+/* columns */
+.responsive-two-column-grid-small > * {
+    padding:0.5rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-two-column-grid-small {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

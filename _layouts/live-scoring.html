@@ -103,14 +103,22 @@ layout: splash
 <!-- ========== GAME BREAK ========= -->
 <h1>Game Break</h1>  
 {% if site.data.breaks %}
+{% assign snd_half = false %}
+<div class="responsive-two-column-grid-small">
+<div>
 {% for player in site.data.breaks.break %}
-  <div class="breakLiCol">
-    <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(222, 222, 222, 0.5); display: inline-block; padding: 1rem 1rem; vertical-align: middle">
+    <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(222, 222, 222, 0.5); display: inline-block; padding: 1rem 1rem; margin-left: 0.5rem; margin-bottom: 0.5rem; vertical-align: middle">
     {{ player }}
     </div>
-  </div>
+    {% if forloop.index >= forloop.rindex and snd_half != true %}
+    {% assign snd_half = true %}
+    </div> <!-- left column -->
+    <div>
+    {% endif %}
 {% endfor %}
+</div> <!-- right column -->
 
+</div>
 {% endif %}
 <!-- ========== GAME BREAK ========= -->
 <!-- =============================== -->
