@@ -1,4 +1,6 @@
 main:
+  - title: "Live"
+    url: /live/
   - title: "Anmeldung"
     url: /anmeldung/
   - title: "World ranking"

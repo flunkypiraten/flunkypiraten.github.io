@@ -54,8 +54,9 @@ layout: splash
 	</div>
 
     <hr>
-    Below you can follow the event <b>live</b> with the current/last match (green &rarr; won, red &rarr; lost)
-    and the overall tournament ranking.
+    Below you can see the <b>currently ongoing match</b> or the last match, respectively ((green &rarr; won, red &rarr; lost)).
+    <br>
+    Click on <a href="/live"<b>live</b></a> to see all info about the current tournament and the live ranking.
     <br><br>
   </section>
 </div>
@@ -118,7 +119,7 @@ layout: splash
 {% endif %}
 </div>
 
-
+{% if False %}
 {% if site.data.table %}
 <h1>Table</h1>
 <div class="middle">
@@ -154,6 +155,7 @@ layout: splash
   </tbody>
 {% endfor %}
 </table>
+{% endif %}
 {% endif %}
 
 <h2>Our partners</h2>
