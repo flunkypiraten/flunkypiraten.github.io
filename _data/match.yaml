@@ -1,7 +1,9 @@
 team_1:
-- DummyPlayer5
+- DummyPlayer
+- Hutz
 - Erich
 team_2:
-- DummyPlayer2
-- DummyPlayer3
-winner: 1
+- DummyPlayer6
+- DummyPlayer5
+- DummyPlayer4
+winner: 0
