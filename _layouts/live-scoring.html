@@ -134,6 +134,7 @@ layout: splash
 <div class="container-bracket">
   <h1>Knockout rounds</h1>
 
+  {% if site.data.knockout-qf %}
   <div class="tournament-bracket tb--rounded">
     <div class="tournament-bracket__round tbr--quarterfinals">
       <h3 class="tournament-bracket__round-title">Quarterfinals</h3>
@@ -162,8 +163,9 @@ layout: splash
       {% endfor %}
       </ul>
     </div>
+    {% endif %}
 
-
+    {% if site.data.knockout-sf %}
     <div class="tournament-bracket__round tbr--semifinals">
       <h3 class="tournament-bracket__round-title">Semifinals</h3>
       <ul class="tournament-bracket__list">
@@ -191,7 +193,9 @@ layout: splash
       {% endfor %}
       </ul>
     </div>
+    {% endif %}
 
+    {% if site.data.knockout-3rd %}
     <div class="tournament-bracket__round tbr--bronze">
       <h3 class="tournament-bracket__round-title">Bronze medal game</h3>
       <ul class="tournament-bracket__list">
@@ -219,7 +223,9 @@ layout: splash
        {% endfor %}
       </ul>
     </div>
+    {% endif %}
 
+    {% if site.data.knockout-f %}
     <div class="tournament-bracket__round tbr--gold">
       <h3 class="tournament-bracket__round-title">Gold medal game</h3>
       <ul class="tournament-bracket__list">
@@ -247,6 +253,7 @@ layout: splash
        {% endfor %}
       </ul>
     </div>
+    {% endif %}
 
   </div>
 </div>
