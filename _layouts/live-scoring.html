@@ -5,7 +5,7 @@ layout: splash
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
   <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url}}">
-  <link rel="stylesheet" href="{{ "/assets/css/animation.css" | absolute_url}}">
+  <link rel="stylesheet" href="{{ "/assets/css/tournament_tree.css" | absolute_url}}">
 </head>
 
 <body>
@@ -63,7 +63,7 @@ layout: splash
 <!-- ======== CURRENT MATCH ======== -->
 {% if site.data.match %}
 {% if site.data.match.winner == 0 %}
-<h1>Current Match</h1>  
+<h1>Current Match</h1>
 {% else %}
 <h1>Last match</h1>
 {% endif %}
@@ -101,13 +101,13 @@ layout: splash
 
 <!-- =============================== -->
 <!-- ========== GAME BREAK ========= -->
-<h1>Game Break</h1>  
+<h1>Game Break</h1>
 {% if site.data.breaks %}
 {% assign snd_half = false %}
 <div class="responsive-two-column-grid-small">
 <div>
 {% for player in site.data.breaks.break %}
-    <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background-color: rgba(222, 222, 222, 0.5); display: inline-block; padding: 1rem 1rem; margin-left: 0.5rem; margin-bottom: 0.5rem; vertical-align: middle">
+    <div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px; background-color: rgba(240, 240, 240, 0.5); display: inline-block; padding: 1rem 1rem; margin-left: 0.5rem; margin-bottom: 0.5rem; vertical-align: middle">
     {{ player }}
     </div>
     {% if forloop.index >= forloop.rindex and snd_half != true %}
@@ -127,42 +127,136 @@ layout: splash
 </div> <!-- grid -->
 
 
+<!-- =============================== -->
+<!-- ======= TOURNAMENT TREE ======= -->
+{% if site.data.knockout-qf or site.data.knockout-sf or site.data.knockout-f %}
 <br><br><br>
-<h2>Thanks to all our partners!</h2>
-<div style="text-align: center; width: 100%;">
-	<div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
-		<a href="https://www.facebook.com/Schreinermeister-Walter-GmbH-100500564724164/">
-		<img src="{{ "/assets/images/logo-sw.png" | absolute_url }}" alt="Schreinermeister Walter">
-		</a>
-	</div>
-	<div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
-		<a href="https://www.hawt.de/" target="_blank" rel="noopener noreferrer">
-		<img src="{{ "/assets/images/logo-hawt.png" | absolute_url }}" alt="Hawt">
-		</a>
-	</div>
-	<div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
-		<a href="{{ "/eta" | absolute_url}}">
-		<img src="{{ "/assets/images/logo-eta.png" | absolute_url }}" alt="ETA">
-		</a>
-	</div>
-	<div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
-		<a href="{{ "/walterwerk" | absolute_url }}">
-		<img src="{{ "/assets/images/logo-walterwerk.png" | absolute_url }}" alt="Walterwerk">
-		</a>
-	</div>
-	<div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
-        <div style="background-color: #a85d78;"><img src="{{ "/assets/images/placeholder.png" | absolute_url }}" alt=""> </div>
-	</div>
-	<div style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; display: inline-block; padding: 0.1rem 0.1rem; vertical-middle; width: 30vw; max-width: 30%">
-		<a href="https://galabau-ks.com/" target="_blank" rel="noopener noreferrer">
-		<img src="{{ "/assets/images/logo-ksgalabau.png" | absolute_url }}" alt="K+s Galabau">
-		</a>
-	</div>
-</div>
+<div class="container-bracket">
+  <h1>Knockout rounds</h1>
 
+  <div class="tournament-bracket tb--rounded">
+    <div class="tournament-bracket__round tbr--quarterfinals">
+      <h3 class="tournament-bracket__round-title">Quarterfinals</h3>
+      <ul class="tournament-bracket__list">
+      {% for match in site.data.knockout-qf %}
+       <li class="tournament-bracket__item">
+         <div class="tournament-bracket__match" tabindex="0">
+         <ul class="tournament-bracket__teamlist">
+         {% if match.winner == 1 %}
+           <li class="tournament-bracket__team winner">
+         {% else %}
+           <li class="tournament-bracket__team">
+         {% endif %}
+             <span> {{ match.teams[0] }} </span>
+           </li>
+         {% if match.winner == 2 %}
+           <li class="tournament-bracket__team winner">
+         {% else %}
+           <li class="tournament-bracket__team">
+         {% endif %}
+             <span> {{ match.teams[1] }} </span>
+           </li>
+         </ul>
+         </div>
+       </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+
+    <div class="tournament-bracket__round tbr--semifinals">
+      <h3 class="tournament-bracket__round-title">Semifinals</h3>
+      <ul class="tournament-bracket__list">
+      {% for match in site.data.knockout-sf %}
+       <li class="tournament-bracket__item">
+         <div class="tournament-bracket__match" tabindex="0">
+         <ul class="tournament-bracket__teamlist">
+         {% if match.winner == 1 %}
+           <li class="tournament-bracket__team winner">
+         {% else %}
+           <li class="tournament-bracket__team">
+         {% endif %}
+             <span> {{ match.teams[0] }} </span>
+           </li>
+         {% if match.winner == 2 %}
+           <li class="tournament-bracket__team winner">
+         {% else %}
+           <li class="tournament-bracket__team">
+         {% endif %}
+             <span> {{ match.teams[1] }} </span>
+           </li>
+         </ul>
+         </div>
+       </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="tournament-bracket__round tbr--bronze">
+      <h3 class="tournament-bracket__round-title">Bronze medal game</h3>
+      <ul class="tournament-bracket__list">
+      {% for match in site.data.knockout-3rd %}
+        <li class="tournament-bracket__item">
+          <div class="tournament-bracket__match" tabindex="0">
+          <ul class="tournament-bracket__teamlist">
+          {% if match.winner == 1 %}
+            <li class="tournament-bracket__team winner">
+          {% else %}
+            <li class="tournament-bracket__team">
+          {% endif %}
+              <span> {{ match.teams[0] }} </span>
+            </li>
+          {% if match.winner == 2 %}
+            <li class="tournament-bracket__team winner">
+          {% else %}
+            <li class="tournament-bracket__team">
+          {% endif %}
+              <span> {{ match.teams[1] }} </span>
+            </li>
+          </ul>
+          </div>
+        </li>
+       {% endfor %}
+      </ul>
+    </div>
+
+    <div class="tournament-bracket__round tbr--gold">
+      <h3 class="tournament-bracket__round-title">Gold medal game</h3>
+      <ul class="tournament-bracket__list">
+      {% for match in site.data.knockout-f %}
+        <li class="tournament-bracket__item">
+          <div class="tournament-bracket__match" tabindex="0">
+          <ul class="tournament-bracket__teamlist">
+          {% if match.winner == 1 %}
+            <li class="tournament-bracket__team winner">
+          {% else %}
+            <li class="tournament-bracket__team">
+          {% endif %}
+              <span> {{ match.teams[0] }} </span>
+            </li>
+          {% if match.winner == 2 %}
+            <li class="tournament-bracket__team winner">
+          {% else %}
+            <li class="tournament-bracket__team">
+          {% endif %}
+              <span> {{ match.teams[1] }} </span>
+            </li>
+          </ul>
+          </div>
+        </li>
+       {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>
+{% endif %}
+<!-- ======= TOURNAMENT TREE ======= -->
+<!-- =============================== -->
 </div> <!-- div center -->
 </div> <!-- page__inner-wrap -->
 </body>
+
 </html>
 
 
