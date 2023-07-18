@@ -1,7 +1,11 @@
 Rank,Name,Matches,Points,Wins,Losses,Buchholz,refined Buchholz
-1,Erich,0,0,0,0,0.0,0.000
-,/addplayer,0,0,0,0,0.0,0.000
-,Milos,0,0,0,0,0.0,0.000
-,Hutz,0,0,0,0,0.0,0.000
-,/removeplayer,0,0,0,0,0.0,0.000
-,DummyPlayer,0,0,0,0,0.0,0.000
+1,Erich,1,1,1,0,0.0,1.000
+,Hutz,1,1,1,0,0.0,1.000
+,DummyPlayer,1,1,1,0,0.0,1.000
+4,DummyPlayer4,1,0,0,1,1.0,0.000
+,DummyPlayer5,1,0,0,1,1.0,0.000
+,DummyPlayer6,1,0,0,1,1.0,0.000
+7,Milos,0,0,0,0,0.0,0.000
+,BigVik,0,0,0,0,0.0,0.000
+,DummyPlayer2,0,0,0,0,0.0,0.000
+,DummyPlayer3,0,0,0,0,0.0,0.000
