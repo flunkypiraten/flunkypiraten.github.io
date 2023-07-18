@@ -1,9 +1,9 @@
 team_1:
-- Milos
-- DummyPlayer6
-- DummyPlayer3
-team_2:
+- DummyPlayer5
+- Hutz
 - BigVik
-- DummyPlayer4
-- DummyPlayer2
-winner: 2
+team_2:
+- Milos
+- DummyPlayer
+- Erich
+winner: 0
