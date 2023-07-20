@@ -1,11 +1,4 @@
 Rank,Name,Matches,Points,Wins,Losses,Buchholz,refined Buchholz
-1,DummyPlayer5,2,2,2,0,0.25,1.188
-2,BigVik,1,1,1,0,1.0,0.625
-,Milos,1,1,1,0,1.0,0.625
-4,Erich,2,1,1,1,0.75,1.000
-5,DummyPlayer2,2,1,1,1,0.75,0.938
-6,Hutz,2,1,1,1,0.5,1.125
-7,DummyPlayer,1,1,1,0,0.0,1.250
-8,DummyPlayer6,1,0,0,1,1.5,0.500
-9,DummyPlayer3,2,0,0,2,1.25,0.375
-,DummyPlayer4,2,0,0,2,1.25,0.375
+1,Milos,0,0,0,0,0.0,0.000
+,BigVik,0,0,0,0,0.0,0.000
+,Erich,0,0,0,0,0.0,0.000
