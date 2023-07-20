@@ -1,9 +1,5 @@
 team_1:
-- DummyPlayer5
-- Hutz
-- BigVik
-team_2:
 - Milos
-- DummyPlayer
-- Erich
-winner: 2
+team_2:
+- BigVik
+winner: 0
