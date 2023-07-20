@@ -8,7 +8,7 @@
 //$breakpoint-lg: 940em;
 
 $breakpoint-xs: 7;
-$breakpoint-sm: 7;
+$breakpoint-sm: 520;
 $breakpoint-lg: 768px;
 
 .container-bracket {
@@ -82,6 +82,10 @@ h2 {
   }
 }
 
+.mitem {
+    width: 100% !important;
+}
+
 .tournament-bracket__item {
   display: flex;
   flex: 0 1 auto;
@@ -104,8 +108,8 @@ h2 {
   &::after {
     transition: width 0.2s linear;
   }
-  
-  @media (max-width: $breakpoint-xs) {
+
+  @media (max-width: $breakpoint-lg) {
     width: 100%;
     
     &:nth-child(odd),
@@ -117,7 +121,7 @@ h2 {
   
   @media (min-width: $breakpoint-sm) {
     padding: 0.5em 1em;
-    // flex-grow: 2;
+    flex-grow: 2;
     width: 100%;
     
     &:nth-child(odd),
@@ -278,20 +282,17 @@ h2 {
   flex-direction: column;
   flex-flow: row wrap;
   justify-content: center;
-  width: 100%;
-  min-width: 100%;
   height: 100%;
   min-height: 100%;
   padding-bottom: 0.0em;
   margin-bottom: 1.0em;
   transition: padding 0.2s ease-in-out, margin 0.2s ease-in-out;
   
- 
-  
   .tournament-bracket__round:last-child & {
     border: 0;
   }
 }
+
 
 .tournament-bracket__team {
   display: inline-block;
@@ -306,11 +307,9 @@ h2 {
   padding: 2% 0;
   width: 100%;
   min-width: 100%;
-  height: 30%;
-  min-height: 30%;
   background-color: #f0f2f2;
   border-bottom: thin solid #d0d2d2;
-  
+
   span {
     display: inline-block;
     padding-top: 1rem;
