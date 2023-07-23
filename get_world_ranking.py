@@ -74,14 +74,14 @@ def get_table(data):
             fullname += ", ".join(player["alias"])
         rank_change = r'<span style="font-size: small">('
         rank_prev, player_prev = get_player(player["name"], ranking_prev)
-        if rank_prev > rank:
+        if player_prev["points"] == 0:
+            rank_change += rank_new
+        elif rank_prev > rank:
             rank_change += rank_enhance + str(rank_prev - rank)
         elif rank_prev == rank:
             rank_change += rank_stay
         elif rank_prev < rank:
             rank_change += rank_degrade + str(rank_prev - rank)
-        else:
-            rank_change += rank_new
         rank_change += r')</span>'
         cat_1_tournaments = [get_tournament(tournmnt, data)["name"] for tournmnt in player["results"].keys() if get_tournament(tournmnt, data)["category"] == 1]
         t_1st = [(t,r) for t,r in player["results"].items() if t in cat_1_tournaments and r == "1"]
