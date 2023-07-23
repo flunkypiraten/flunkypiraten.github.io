@@ -1,6 +1,6 @@
 tournaments:
   - name: "FBMS20"
-    date: 01.08.2020
+    date: 01.08.2019
     category: 1
   - name: "FBMS21"
     date: 07.08.2021
@@ -11,6 +11,9 @@ tournaments:
   - name: "WC22"
     date: 03.12.2022
     category: 3
+  - name: "FBMS23"
+    date: 22.07.2023
+    category: 1
 rolling_range: 3
 points: {
   1: {
@@ -43,20 +46,20 @@ points: {
 }
 players:
   - name: "Erich"
-    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2"}
+    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3"}
   - name: "Milos"
-    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1"}
+    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2"}
   - name: "BigVik"
-    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2"}
+    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16"}
   - name: "Dr. R. Andy"
     alias:
     - "Randy"
     - "Die Hoden Gottes"
-    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4"}
+    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4", FBMS23: "1"}
   - name: "Crazylegs"
     alias:
     - "Crazy"
-    results: { FBMS20: "4", FBMS22: "QF"}
+    results: { FBMS20: "4", FBMS22: "QF", FBMS23: "R16"}
   - name: "Coach Keiler"
     alias:
     - "Keiler"
@@ -68,11 +71,11 @@ players:
   - name: "Richie"
     results: { FBMS20: "4", FBMS21: "QF"}
   - name: "Heini"
-    results: { FBMS21: "2", FBMS22: "3", WC22: "QF"}
+    results: { FBMS21: "2", FBMS22: "3", WC22: "QF", FBMS23: "2"}
   - name: "Hodi"
-    results: { FBMS21: "4"}
+    results: { FBMS21: "4", FBMS23: "R16"}
   - name: "Dr. Dörg"
-    results: { FBMS21: "2"}
+    results: { FBMS21: "2", FBMS23: "1"}
   - name: "DJ Borsten"
     results: { FBMS21: "4", FBMS22: "4"}
   - name: "GOAT"
@@ -82,4 +85,26 @@ players:
   - name: "Laui"
     results: { FBMS22: "R16"}
   - name: "Till"
-    results: { FBMS22: "1"}
+    results: { FBMS22: "1", FBMS23: "3"}
+  - name: "Nordi"
+    results: { FBMS23: "R32"}
+  - name: "Don G"
+    results: { FBMS23: "R32"}
+  - name: "Borst"
+    results: { FBMS23: "R32"}
+  - name: "Dr. Acula"
+    results: { FBMS23: "R32"}
+  - name: "VS8"
+    results: { FBMS23: "4"}
+  - name: "Katerkönig"
+    results: { FBMS23: "4"}
+  - name: "Chris"
+    results: { FBMS23: "R16"}
+  - name: "Arktos der fiese Schneemann"
+    results: { FBMS23: "R16"}
+  - name: "Mk"
+    results: { FBMS23: "R16"}
+  - name: "Senf Sau Sebi"
+    results: { FBMS23: "R16"}
+  - name: "Sir Schlegel"
+    results: { FBMS23: "R16"}
