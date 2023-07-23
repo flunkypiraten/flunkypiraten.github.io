@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import copy
 import re
 from ruamel.yaml import YAML
 from datetime import datetime, timedelta
@@ -42,7 +43,7 @@ def calc_ranking(data, day=None):
                 category = get_tournament(tname, data)["category"]
                 points += data["points"][category][res]
         player["points"] = points
-    ranking = sorted(data["players"], key=lambda p: p["points"], reverse=True)
+    ranking = copy.deepcopy(sorted(data["players"], key=lambda p: p["points"], reverse=True))
     return ranking
 
 
