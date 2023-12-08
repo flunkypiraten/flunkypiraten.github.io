@@ -1,6 +1,6 @@
 ---
-permalink: /worldranking/
-title: "World ranking"
+permalink: /ranking/
+title: "Ranking"
 ---
 
 Here we honor every player who ever competed at an official Flunkypiraten tournament starting from the Flunkyball championships 2020.
@@ -44,6 +44,17 @@ _Cut-off date: 23.07.2023_
 
 
 <!-- table tag end -->
+
+
+## Season 23/24 ranking
+
+<!-- season_table tag start -->
+
+| Rank | Player | Ranking points season 2023/2024|
+|------|--------|-------------------------------:|
+||||
+
+<!-- season_table tag end -->
 
 <!-- symbols: up: ▲ down: ▼ same: - new: &#x1F195; -->
 <!-- colors: green: #008450 red: #B81D13 orange: #EFB700; -->

@@ -3,7 +3,7 @@ main:
     url: /live/
   - title: "Anmeldung"
     url: /anmeldung/
-  - title: "World ranking"
-    url: /worldranking/
+  - title: "Ranking"
+    url: /ranking/
   - title: "About"
     url: /about/
