@@ -1,8 +1,8 @@
 Rank,Name,Matches,Points,Wins,Losses,Buchholz,refined Buchholz
-1,Dr. R. Andy,2,2,2,0,0.0,1.500
-2,Milos,1,1,1,0,0.0,1.500
-,Arktos,1,1,1,0,0.0,1.500
-4,BigVik,1,0,0,1,1.5,0.000
-,Erich,1,0,0,1,1.5,0.000
-,Flipper,1,0,0,1,1.5,0.000
-,Katerkönig,1,0,0,1,1.5,0.000
+1,Dr. R. Andy,2,2,2,0,0.5,1.000
+2,Flipper,2,1,1,1,0.75,0.875
+,Katerkönig,2,1,1,1,0.75,0.875
+4,Milos,1,1,1,0,0.5,1.000
+,Arktos,1,1,1,0,0.5,1.000
+6,BigVik,2,0,0,2,1.25,0.625
+,Erich,2,0,0,2,1.25,0.625
