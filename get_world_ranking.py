@@ -260,7 +260,6 @@ def main():
         ranking_file = ranking_file_pre_table + "<!-- season_table tag start -->\n\n" + table + "\n\n<!-- season_table tag end -->" + ranking_file_post_table
         with open(ranking_fn, "w") as f:
             f.write(ranking_file)
-
     else:
         ranking = calc_ranking(data)
         last_tournament = datetime.strptime(

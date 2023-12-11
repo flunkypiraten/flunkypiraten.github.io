@@ -14,7 +14,7 @@ tournaments:
   - name: "FBMS23"
     date: 22.07.2023
     category: 1
-  - name: "WC24"
+  - name: "WC23"
     date: 09.12.2023
     category: 3
 rolling_range: 3
@@ -49,16 +49,16 @@ points: {
 }
 players:
   - name: "Erich"
-    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3"}
+    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2"}
   - name: "Milos"
-    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2"}
+    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1"}
   - name: "BigVik"
-    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16"}
+    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF"}
   - name: "Dr. R. Andy"
     alias:
     - "Randy"
     - "Die Hoden Gottes"
-    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4", FBMS23: "1"}
+    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4", FBMS23: "1", WC23: "3"}
   - name: "Crazylegs"
     alias:
     - "Crazy"
@@ -68,7 +68,7 @@ players:
     - "Keiler"
     results: { FBMS20: "2", FBMS21: "QF", FBMS22: "4"}
   - name: "Flipper"
-    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3"}
+    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF"}
   - name: "Lugge"
     results: { FBMS20: "1"}
   - name: "Richie"
@@ -100,11 +100,11 @@ players:
   - name: "VS8"
     results: { FBMS23: "4"}
   - name: "Katerkönig"
-    results: { FBMS23: "4"}
+    results: { FBMS23: "4", WC23: "QF"}
   - name: "Chris"
     results: { FBMS23: "R16"}
   - name: "Arktos der fiese Schneemann"
-    results: { FBMS23: "R16"}
+    results: { FBMS23: "R16", WC23: "4"}
   - name: "Mk"
     results: { FBMS23: "R16"}
   - name: "Senf Sau Sebi"
