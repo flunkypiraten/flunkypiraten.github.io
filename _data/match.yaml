@@ -1,7 +1,6 @@
 team_1:
-- Dr. Dörg
-- Erich
-team_2:
 - BigVik
 - Milos
-winner: 1
+team_2:
+- Erich
+winner: 0
