@@ -17,6 +17,9 @@ tournaments:
   - name: "WC23"
     date: 09.12.2023
     category: 3
+  - name: "FC24"
+    date: 03.05.2024
+    category: 2
 rolling_range: 3
 points: {
   1: {
@@ -49,11 +52,11 @@ points: {
 }
 players:
   - name: "Erich"
-    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2"}
+    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2", FC24: "1"}
   - name: "Milos"
-    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1"}
+    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2"}
   - name: "BigVik"
-    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF"}
+    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "QF"}
   - name: "Dr. R. Andy"
     alias:
     - "Randy"
@@ -68,7 +71,7 @@ players:
     - "Keiler"
     results: { FBMS20: "2", FBMS21: "QF", FBMS22: "4"}
   - name: "Flipper"
-    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF"}
+    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF", FC24: "4"}
   - name: "Lugge"
     results: { FBMS20: "1"}
   - name: "Richie"
@@ -88,7 +91,7 @@ players:
   - name: "Laui"
     results: { FBMS22: "R16"}
   - name: "Till"
-    results: { FBMS22: "1", FBMS23: "3"}
+    results: { FBMS22: "1", FBMS23: "3", FC24: "4"}
   - name: "Nordi"
     results: { FBMS23: "R32"}
   - name: "Don G"
@@ -100,14 +103,20 @@ players:
   - name: "VS8"
     results: { FBMS23: "4"}
   - name: "Katerkönig"
-    results: { FBMS23: "4", WC23: "QF"}
+    results: { FBMS23: "4", WC23: "QF", FC24: "1"}
   - name: "Chris"
     results: { FBMS23: "R16"}
   - name: "Arktos der fiese Schneemann"
-    results: { FBMS23: "R16", WC23: "4"}
+    results: { FBMS23: "R16", WC23: "4", FC24: "2"}
   - name: "Mk"
     results: { FBMS23: "R16"}
   - name: "Senf Sau Sebi"
     results: { FBMS23: "R16"}
   - name: "Sir Schlegel"
-    results: { FBMS23: "R16"}
+    results: { FBMS23: "R16", FC24: "3"}
+  - name: "Teufel"
+    results: { FC24: "QF"}
+  - name: "Ace"
+    results: { FC24: "QF"}
+  - name: "Dr. Weizen"
+    results: { FC24: "QF"}
