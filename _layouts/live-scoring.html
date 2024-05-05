@@ -21,7 +21,7 @@ layout: splash
 {% if site.data.table %}
 <h1>Table</h1>
 <div class="middle" style="text-align: left;">
-  <span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for finals / winners bonus</i></span>
+  <!--span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for finals / winners bonus</i></span-->
   <span class="legenddot" style="background-color: rgba(144, 238, 144, 0.5);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for finals</i></span>
   <span>&nbsp;&nbsp;&nbsp;</span>
 </div>
@@ -39,7 +39,7 @@ layout: splash
   <tbody>
     {% if forloop.index <= 0 %}
     <tr style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 25%, rgba(120, 196, 120, 0.5) 25%);">
-    {% elsif forloop.index <= 4 and forloop.index > 0 %}
+    {% elsif forloop.index <= 8 and forloop.index > 0 %}
     <tr style="background-color: rgba(144, 238, 144, 0.5);">
     {% else %}
     <tr>
