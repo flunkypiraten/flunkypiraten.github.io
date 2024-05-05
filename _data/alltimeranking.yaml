@@ -56,7 +56,7 @@ players:
   - name: "Milos"
     results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2"}
   - name: "BigVik"
-    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "QF"}
+    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "4"}
   - name: "Dr. R. Andy"
     alias:
     - "Randy"
@@ -71,7 +71,7 @@ players:
     - "Keiler"
     results: { FBMS20: "2", FBMS21: "QF", FBMS22: "4"}
   - name: "Flipper"
-    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF", FC24: "4"}
+    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF", FC24: "QF"}
   - name: "Lugge"
     results: { FBMS20: "1"}
   - name: "Richie"
