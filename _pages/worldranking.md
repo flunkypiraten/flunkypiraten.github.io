@@ -43,7 +43,7 @@ _Cut-off date: 04.05.2024_
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Don G |   |   |   | 90 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Borst |   |   |   | 90 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Dr. Acula |   |   |   | 90 |
-| 30 <span style="font-size: small">(&#x1F195;)</span> | Lugge | 1 (2020) |   |   | 0 |
+| 30 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Lugge | 1 (2020) |   |   | 0 |
 
 
 <!-- table tag end -->
