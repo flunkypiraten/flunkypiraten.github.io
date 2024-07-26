@@ -3,7 +3,8 @@ tournaments:
     date: 01.08.2020
     category: 1
   - name: "FBMS21"
-    date: 07.08.2021
+    #date: 07.08.2021
+    date: 07.07.2021
     category: 1
   - name: "FBMS22"
     date: 13.08.2022
@@ -20,6 +21,9 @@ tournaments:
   - name: "FC24"
     date: 03.05.2024
     category: 2
+  - name: "FBMS24"
+    date: 27.07.2024
+    category: 1
 rolling_range: 3
 points: {
   1: {
@@ -52,26 +56,26 @@ points: {
 }
 players:
   - name: "Erich"
-    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2", FC24: "1"}
+    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2", FC24: "1", FBMS24: ""}
   - name: "Milos"
-    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2"}
+    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2", FBMS24: ""}
   - name: "BigVik"
-    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "4"}
+    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "4", FBMS24: ""}
   - name: "Dr. R. Andy"
     alias:
     - "Randy"
     - "Die Hoden Gottes"
-    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4", FBMS23: "1", WC23: "3"}
+    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4", FBMS23: "1", WC23: "3", FBMS24: ""}
   - name: "Crazylegs"
     alias:
     - "Crazy"
-    results: { FBMS20: "4", FBMS22: "QF", FBMS23: "R16"}
+    results: { FBMS20: "4", FBMS22: "QF", FBMS23: "R16", FBMS24: ""}
   - name: "Coach Keiler"
     alias:
     - "Keiler"
     results: { FBMS20: "2", FBMS21: "QF", FBMS22: "4"}
   - name: "Flipper"
-    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF", FC24: "QF"}
+    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF", FC24: "QF", FBMS24: ""}
   - name: "Lugge"
     results: { FBMS20: "1"}
   - name: "Richie"
@@ -79,11 +83,11 @@ players:
   - name: "Heini"
     results: { FBMS21: "2", FBMS22: "3", WC22: "QF", FBMS23: "2"}
   - name: "Hodi"
-    results: { FBMS21: "4", FBMS23: "R16"}
+    results: { FBMS21: "4", FBMS23: "R16", FBMS24: ""}
   - name: "Dr. Dörg"
-    results: { FBMS21: "2", FBMS23: "1"}
+    results: { FBMS21: "2", FBMS23: "1", FBMS24: ""}
   - name: "DJ Borsten"
-    results: { FBMS21: "4", FBMS22: "4"}
+    results: { FBMS21: "4", FBMS22: "4", FBMS24: ""}
   - name: "GOAT"
     alias:
     - "Jessi"
@@ -93,27 +97,27 @@ players:
   - name: "Till"
     results: { FBMS22: "1", FBMS23: "3", FC24: "4"}
   - name: "Nordi"
-    results: { FBMS23: "R32"}
+    results: { FBMS23: "R32", FBMS24: ""}
   - name: "Don G"
     results: { FBMS23: "R32"}
   - name: "Borst"
-    results: { FBMS23: "R32"}
+    results: { FBMS23: "R32", FBMS24: ""}
   - name: "Dr. Acula"
     results: { FBMS23: "R32"}
   - name: "VS8"
     results: { FBMS23: "4"}
   - name: "Katerkönig"
-    results: { FBMS23: "4", WC23: "QF", FC24: "1"}
+    results: { FBMS23: "4", WC23: "QF", FC24: "1", FBMS24: ""}
   - name: "Chris"
-    results: { FBMS23: "R16"}
+    results: { FBMS23: "R16", FBMS24: ""}
   - name: "Arktos der fiese Schneemann"
-    results: { FBMS23: "R16", WC23: "4", FC24: "2"}
+    results: { FBMS23: "R16", WC23: "4", FC24: "2", FBMS24: ""}
   - name: "Mk"
-    results: { FBMS23: "R16"}
+    results: { FBMS23: "R16", FBMS24: ""}
   - name: "Senf Sau Sebi"
     results: { FBMS23: "R16"}
   - name: "Sir Schlegel"
-    results: { FBMS23: "R16", FC24: "3"}
+    results: { FBMS23: "R16", FC24: "3", FBMS24: ""}
   - name: "Teufel"
     results: { FC24: "QF"}
   - name: "Ace"
