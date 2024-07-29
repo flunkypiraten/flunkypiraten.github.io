@@ -15,7 +15,7 @@ _Cut-off date: 28.07.2024_
 | Rank | Player | All-time titles 🥇 | All-time 2nd 🥈 | All-time 3rd 🥉 | Ranking points |
 |------|------|------|------|------|------:|
 | 1 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Milos | 1 (2021) | 4 (2020, 2022, 2023, 2024) |   | 5200 |
-| 2 <span style="font-size: small">(<span style="color: #EFB700">-<</span>)</span> | Dr. R. Andy *formerly known as* Randy, Die Hoden Gottes | 2 (2022, 2023) |   | 2 (2020, 2021) | 4765 |
+| 2 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Dr. R. Andy *formerly known as* Randy, Die Hoden Gottes | 2 (2022, 2023) |   | 2 (2020, 2021) | 4765 |
 | 3 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Erich |   |   | 3 (2021, 2022, 2023) | 3880 |
 | 4 <span style="font-size: small">(<span style="color: #008450">▲</span>2)</span> | Till | 1 (2022) |   | 1 (2023) | 3320 |
 | 5 <span style="font-size: small">(<span style="color: #008450">▲</span>3)</span> | Katerkönig |   | 1 (2024) |   | 3010 |
