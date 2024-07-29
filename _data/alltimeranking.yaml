@@ -88,9 +88,7 @@ players:
     results: { FBMS21: "2", FBMS23: "1", FBMS24: "4"}
   - name: "DJ Borsten"
     results: { FBMS21: "4", FBMS22: "4", FBMS24: "QF"}
-  - name: "GOAT"
-    alias:
-    - "Jessi"
+  - name: "Jessi"
     results: { FBMS21: "QF"}
   - name: "Laui"
     results: { FBMS22: "R16"}
@@ -108,7 +106,7 @@ players:
     results: { FBMS23: "4"}
   - name: "Katerkönig"
     results: { FBMS23: "4", WC23: "QF", FC24: "1", FBMS24: "2"}
-  - name: "Chris"
+  - name: "Chris-P-Bacon"
     results: { FBMS23: "R16", FBMS24: "QF"}
   - name: "Arktos der fiese Schneemann"
     results: { FBMS23: "R16", WC23: "4", FC24: "2", FBMS24: "QF"}
