@@ -51,12 +51,26 @@ _Cut-off date: 28.07.2024_
 <!-- table tag end -->
 
 
-## Season 23/24 ranking
+## Season 24/25 ranking
 
 <!-- season_table tag start -->
 
+| Rank | Player | Ranking points season 2024/2025|
+|------|--------|-------------------------------:|
+|      |        |                                |
+
+
+<!-- season_table tag end -->
+
+## Season 23/24 podium
+
 | Rank | Player | Ranking points season 2023/2024|
 |------|--------|-------------------------------:|
+| 1🥇 | Sir Schlegel | 2500 |
+| 2🥈 | Milos | 2300 |
+| 3🥉 | Katerkönig | 2290 |
+
+<!-- div>
 | 1 <span style="font-size: small">(<span style="color: #008450">▲</span>4)</span> | Sir Schlegel | 2500 |
 | 2 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Milos | 2300 |
 | 3 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Katerkönig | 2290 |
@@ -79,9 +93,7 @@ _Cut-off date: 28.07.2024_
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-8)</span> | Dr. Weizen | 180 |
 | 21 <span style="font-size: small">(&#x1F195;)</span> | Borst | 90 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Mr Sunny | 90 |
-
-
-<!-- season_table tag end -->
+<div -->
 
 <!-- symbols: up: ▲ down: ▼ same: - new: &#x1F195; -->
 <!-- colors: green: #008450 red: #B81D13 orange: #EFB700; -->

@@ -3,8 +3,7 @@ tournaments:
     date: 01.08.2020
     category: 1
   - name: "FBMS21"
-    #date: 07.08.2021
-    date: 07.07.2021
+    date: 07.08.2021
     category: 1
   - name: "FBMS22"
     date: 13.08.2022
