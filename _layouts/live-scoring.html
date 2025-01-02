@@ -37,9 +37,9 @@ layout: splash
   {% endif %}
   </thead>
   <tbody>
-    {% if forloop.index <= 4 %}
+    {% if forloop.index <= 0 %}
     <tr style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 25%, rgba(120, 196, 120, 0.5) 25%);">
-    {% elsif forloop.index <= 8 and forloop.index > 0 %}
+    {% elsif forloop.index <= 4 and forloop.index > 0 %}
     <tr style="background-color: rgba(144, 238, 144, 0.5);">
     {% else %}
     <tr>
