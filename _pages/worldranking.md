@@ -43,9 +43,9 @@ _Cut-off date: 05.01.2025_
 | 27 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Don G |   |   |   | 90 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Dr. Acula |   |   |   | 90 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Mr Sunny |   |   |   | 90 |
-| 30 <span style="font-size: small">(&#x1F195;)</span> | Lugge | 1 (2020) |   |   | 0 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Richie |   |   |   | 0 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Jessi |   |   |   | 0 |
+| 30 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Lugge | 1 (2020) |   |   | 0 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Richie |   |   |   | 0 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Jessi |   |   |   | 0 |
 
 
 <!-- table tag end -->
