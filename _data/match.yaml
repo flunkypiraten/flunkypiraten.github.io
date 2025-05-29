@@ -1,8 +1,8 @@
 team_1:
 - Erich
-- Hohi
-team_2:
-- Dr. Dörg
 - BigVik
 - Mr Sunny
-winner: 1
+team_2:
+- Hohi
+- Dr. Dörg
+winner: 0
