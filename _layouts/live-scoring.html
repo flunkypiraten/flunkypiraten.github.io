@@ -14,7 +14,7 @@ layout: splash
 
 <div style="text-align: center; width: 100%">
 
-<h2>Watch our <a href="https://www.twitch.tv/flunkypiraten">LIVE STREAM</a></h2>
+<!--h2>Watch our <a href="https://www.twitch.tv/flunkypiraten">LIVE STREAM</a></h2-->
 <div class="responsive-two-column-grid">
 <div> <!-- left column -->
 <!-- =============================== -->
@@ -22,7 +22,7 @@ layout: splash
 {% if site.data.table %}
 <h1>Table</h1>
 <div class="middle" style="text-align: left;">
-  <!--span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for finals / winners bonus</i></span-->
+  <span class="legenddot" style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 50%, rgba(120, 196, 120, 0.5) 50%);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for semi finals / wild card</i></span>
   <span class="legenddot" style="background-color: rgba(144, 238, 144, 0.5);"></span><span style="font-size: .6rem;"><i>&nbsp;Qualified for knockout round</i></span>
   <span>&nbsp;&nbsp;&nbsp;</span>
 </div>
@@ -38,9 +38,9 @@ layout: splash
   {% endif %}
   </thead>
   <tbody>
-    {% if forloop.index <= 0 %}
+    {% if forloop.index <= 2 %}
     <tr style="background: linear-gradient(135deg, rgba(144, 238, 144, 0.5) 25%, rgba(120, 196, 120, 0.5) 25%);">
-    {% elsif forloop.index <= 8 and forloop.index > 0 %}
+    {% elsif forloop.index <= 6 and forloop.index > 0 %}
     <tr style="background-color: rgba(144, 238, 144, 0.5);">
     {% else %}
     <tr>
