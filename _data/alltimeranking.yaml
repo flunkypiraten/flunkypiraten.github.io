@@ -67,16 +67,16 @@ points: {
 }
 players:
   - name: "Erich"
-    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2", FC24: "1", FBMS24: "QF", WC24: "QF", FC25: "2", FBMS25: "3"}
+    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2", FC24: "1", FBMS24: "QF", WC24: "QF", FC25: "2", FBMS25: "3", WC25: "3" }
   - name: "Milos"
-    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2", FBMS24: "2", WC24: "3", FC25: "1", FBMS25: "2"}
+    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2", FBMS24: "2", WC24: "3", FC25: "1", FBMS25: "2", WC25: "1"}
   - name: "BigVik"
-    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "4", FBMS24: "QF", WC24: "R16", FC25: "1", FBMS25: "3"}
+    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "4", FBMS24: "QF", WC24: "R16", FC25: "1", FBMS25: "3", WC25: "R16"}
   - name: "Dr. R. Andy"
     alias:
     - "Randy"
     - "Die Hoden Gottes"
-    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4", FBMS23: "1", WC23: "3", FBMS24: "QF", WC24: "2", FC25: "3", FBMS25: "QF"}
+    results: { FBMS20: "3", FBMS21: "3", FBMS22: "1", WC22: "4", FBMS23: "1", WC23: "3", FBMS24: "QF", WC24: "2", FC25: "3", FBMS25: "QF", WC25: "QF"}
   - name: "Crazylegs"
     alias:
     - "Crazy"
@@ -86,7 +86,7 @@ players:
     - "Keiler"
     results: { FBMS20: "2", FBMS21: "QF", FBMS22: "4"}
   - name: "Flipper"
-    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF", FC24: "QF", FBMS24: "3", WC24: "QF", FBMS25: "QF"}
+    results: { FBMS20: "3", FBMS21: "QF", FBMS22: "QF", WC22: "3", WC23: "QF", FC24: "QF", FBMS24: "3", WC24: "QF", FBMS25: "QF", WC25: "R16"}
   - name: "Lugge"
     results: { FBMS20: "1"}
   - name: "Richie"
@@ -116,17 +116,17 @@ players:
   - name: "VS8"
     results: { FBMS23: "4"}
   - name: "Katerkönig"
-    results: { FBMS23: "4", WC23: "QF", FC24: "1", FBMS24: "2", WC24: "QF", FC25: "3", FBMS25: "QF"}
+    results: { FBMS23: "4", WC23: "QF", FC24: "1", FBMS24: "2", WC24: "QF", FC25: "3", FBMS25: "QF", WC25: "R16"}
   - name: "Chris-P-Bacon"
     results: { FBMS23: "R16", FBMS24: "QF", FBMS25: "QF"}
   - name: "Arktos der fiese Schneemann"
-    results: { FBMS23: "R16", WC23: "4", FC24: "2", FBMS24: "QF", WC24: "R16", FC25: "R16", FBMS25: "QF"}
+    results: { FBMS23: "R16", WC23: "4", FC24: "2", FBMS24: "QF", WC24: "R16", FC25: "R16", FBMS25: "QF", WC25: "4"}
   - name: "Mk"
     results: { FBMS23: "R16", FBMS24: "3", FC25: "2", FBMS25: "4"}
   - name: "Senf Sau Sebi"
     results: { FBMS23: "R16"}
   - name: "Sir Schlegel"
-    results: { FBMS23: "R16", FC24: "3", FBMS24: "1", WC24: "1", FC25: "4", FBMS25: "1"}
+    results: { FBMS23: "R16", FC24: "3", FBMS24: "1", WC24: "1", FC25: "4", FBMS25: "1", WC25: "2"}
   - name: "Teufel"
     results: { FC24: "QF"}
   - name: "Ace"
@@ -134,7 +134,7 @@ players:
   - name: "Dr. Weizen"
     results: { FC24: "QF"}
   - name: "White Eel"
-    results: { FBMS24: "1", WC24: "4", FC25: "4", FBMS25: "QF"}
+    results: { FBMS24: "1", WC24: "4", FC25: "4", FBMS25: "QF", WC25: "QF"}
   - name: "Mr Sunny"
     results: { FBMS24: "R32"}
   - name: "El Beezonero"
