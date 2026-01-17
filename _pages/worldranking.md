@@ -56,7 +56,7 @@ _Cut-off date: 18.01.2026_
 <!-- table tag end -->
 
 
-## Season 24/25 ranking
+## Season 25/26 ranking
 
 <!-- season_table tag start -->
 
