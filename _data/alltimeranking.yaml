@@ -32,6 +32,9 @@ tournaments:
   - name: "FC25"
     date: 24.05.2025
     category: 2
+  - name: "WC25"
+    date: 17.01.2026
+    category: 3
 rolling_range: 3
 points: {
   1: {
