@@ -2,39 +2,51 @@ tournaments:
   - name: "FBMS20"
     date: 01.08.2020
     category: 1
+    group: "FBMS"
   - name: "FBMS21"
     date: 07.08.2021
     category: 1
+    group: "FBMS"
   - name: "FBMS22"
     date: 13.08.2022
     category: 1
+    group: "FBMS"
   - name: "WC22"
     date: 03.12.2022
     category: 3
+    group: "WC"
   - name: "FBMS23"
     date: 22.07.2023
     category: 1
+    group: "FBMS"
   - name: "WC23"
     date: 09.12.2023
     category: 3
+    group: "WC"
   - name: "FC24"
     date: 03.05.2024
     category: 2
+    group: "FC"
   - name: "FBMS24"
     date: 27.07.2024
     category: 1
+    group: "FVMS"
   - name: "FBMS25"
     date: 30.08.2025
     category: 1
+    group: "FBMS"
   - name: "WC24"
     date: 04.01.2025
     category: 2
+    group: "WC"
   - name: "FC25"
     date: 24.05.2025
     category: 2
+    group: "FC"
   - name: "WC25"
     date: 17.01.2026
     category: 3
+    group: "WC"
 rolling_range: 3
 points: {
   1: {
