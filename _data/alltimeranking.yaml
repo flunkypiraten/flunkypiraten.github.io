@@ -137,7 +137,7 @@ players:
     results: { FBMS23: "R16", FBMS24: "3", FC25: "2", FBMS25: "4"}
   - name: "Senf Sau Sebi"
     results: { FBMS23: "R16"}
-  - name: "Sir Schlegel"
+  - name: "Sir Schlegl"
     results: { FBMS23: "R16", FC24: "3", FBMS24: "1", WC24: "1", FC25: "4", FBMS25: "1", WC25: "2"}
   - name: "Teufel"
     results: { FC24: "QF"}
