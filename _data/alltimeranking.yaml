@@ -47,6 +47,10 @@ tournaments:
     date: 17.01.2026
     category: 3
     group: "WC"
+  - name: "HC26"
+    date: 24.10.2026
+    category: 2
+    group: "HC"
 rolling_range: 3
 points: {
   1: {
@@ -79,11 +83,11 @@ points: {
 }
 players:
   - name: "Erich"
-    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2", FC24: "1", FBMS24: "QF", WC24: "QF", FC25: "2", FBMS25: "3", WC25: "3" }
+    results: { FBMS20: "QF", FBMS21: "3", FBMS22: "3", WC22: "2", FBMS23: "3", WC23: "2", FC24: "1", FBMS24: "QF", WC24: "QF", FC25: "2", FBMS25: "3", WC25: "3", HC26: "4"}
   - name: "Milos"
-    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2", FBMS24: "2", WC24: "3", FC25: "1", FBMS25: "2", WC25: "1"}
+    results: { FBMS20: "2", FBMS21: "1", FBMS22: "2", WC22: "1", FBMS23: "2", WC23: "1", FC24: "2", FBMS24: "2", WC24: "3", FC25: "1", FBMS25: "2", WC25: "1", HC26: "QF"}
   - name: "BigVik"
-    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "4", FBMS24: "QF", WC24: "R16", FC25: "1", FBMS25: "3", WC25: "R16"}
+    results: { FBMS20: "1", FBMS21: "1", FBMS22: "2", FBMS23: "R16", WC23: "QF", FC24: "4", FBMS24: "QF", WC24: "R16", FC25: "1", FBMS25: "3", WC25: "R16", HC26: "QF"}
   - name: "Dr. R. Andy"
     alias:
     - "Randy"
@@ -128,29 +132,31 @@ players:
   - name: "VS8"
     results: { FBMS23: "4"}
   - name: "Katerkönig"
-    results: { FBMS23: "4", WC23: "QF", FC24: "1", FBMS24: "2", WC24: "QF", FC25: "3", FBMS25: "QF", WC25: "R16"}
+    results: { FBMS23: "4", WC23: "QF", FC24: "1", FBMS24: "2", WC24: "QF", FC25: "3", FBMS25: "QF", WC25: "R16", HC26: "4"}
   - name: "Chris-P-Bacon"
     results: { FBMS23: "R16", FBMS24: "QF", FBMS25: "QF"}
   - name: "Arktos der fiese Schneemann"
-    results: { FBMS23: "R16", WC23: "4", FC24: "2", FBMS24: "QF", WC24: "R16", FC25: "R16", FBMS25: "QF", WC25: "4"}
+    results: { FBMS23: "R16", WC23: "4", FC24: "2", FBMS24: "QF", WC24: "R16", FC25: "R16", FBMS25: "QF", WC25: "4", HC26: "2"}
   - name: "Mk"
     results: { FBMS23: "R16", FBMS24: "3", FC25: "2", FBMS25: "4"}
   - name: "Senf Sau Sebi"
-    results: { FBMS23: "R16"}
+    results: { FBMS23: "R16", HC26: "3"}
   - name: "Sir Schlegl"
-    results: { FBMS23: "R16", FC24: "3", FBMS24: "1", WC24: "1", FC25: "4", FBMS25: "1", WC25: "2"}
+    results: { FBMS23: "R16", FC24: "3", FBMS24: "1", WC24: "1", FC25: "4", FBMS25: "1", WC25: "2", HC26: "1"}
   - name: "Teufel"
     results: { FC24: "QF"}
   - name: "Ace"
     results: { FC24: "QF"}
   - name: "Dr. Weizen"
     results: { FC24: "QF"}
+  - name: "Ban der Bierbändiger"
+    results: {FC24: "3", HC26: "1"}
   - name: "White Eel"
-    results: { FBMS24: "1", WC24: "4", FC25: "4", FBMS25: "QF", WC25: "QF"}
+    results: { FBMS24: "1", WC24: "4", FC25: "4", FBMS25: "QF", WC25: "QF", HC26: "3"}
   - name: "Mr Sunny"
     results: { FBMS24: "R32"}
   - name: "El Beezonero"
-    results: {FC25: "R16", FBMS25: "QF"}
+    results: {FC25: "R16", FBMS25: "QF", HC26: "2"}
   - name: "Huggi der Profi"
     results: {FBMS25: "2"}
   - name: "Hardi"
@@ -159,3 +165,7 @@ players:
     results: {FBMS25: "R32"}
   - name: "Nikita"
     results: {FBMS25: "R32"}
+  - name: "WhoRainZone"
+    results: {HC26: "QF"}
+  - name: "Schluckspecht"
+    results: {HC26: "QF"}
