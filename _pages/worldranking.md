@@ -6,7 +6,7 @@ title: "Ranking"
 Here we honor every player who ever competed at an official Flunkypiraten tournament starting from the Flunkyball championships 2020.
 
 The ranking system utilizes a three-year rolling format.  
-_Cut-off date: 18.01.2026_
+_Cut-off date: 25.10.2026_
 
 
 
@@ -14,43 +14,46 @@ _Cut-off date: 18.01.2026_
 
 | Rank | Player | All-time titles 🥇 | All-time 2nd 🥈 | All-time 3rd 🥉 | Ranking points |
 |------|------|------|------|------|------:|
-| 1 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Milos | 1 (2021) | 5 (2020, 2022, 2023, 2024, 2025) |   | 6700 |
-| 2 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Sir Schlegel | 2 (2024, 2025) |   |   | 6340 |
-| 3 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Erich |   |   | 4 (2021, 2022, 2023, 2025) | 4585 |
-| 4 <span style="font-size: small">(<span style="color: #008450">▲</span>1)</span> | Dr. R. Andy *formerly known as* Randy, Die Hoden Gottes | 2 (2022, 2023) |   | 2 (2020, 2021) | 4135 |
-| 5 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Katerkönig |   | 1 (2024) |   | 4095 |
-| 6 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | White Eel | 1 (2024) |   |   | 3170 |
-| 7 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | BigVik | 2 (2020, 2021) | 1 (2022) | 1 (2025) | 3085 |
-| 8 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Dr. Dörg | 1 (2023) | 1 (2021) |   | 2720 |
-| 9 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | DJ Borsten | 1 (2025) |   |   | 2540 |
-| 10 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Mk |   |   | 1 (2024) | 2460 |
-| 11 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Arktos der fiese Schneemann |   |   |   | 2040 |
-| 12 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Flipper |   |   | 2 (2020, 2024) | 1815 |
-| 13 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Till | 1 (2022) |   | 1 (2023) | 1680 |
-| 14 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Heini |   | 2 (2021, 2023) | 1 (2022) | 1200 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Huggi der Profi |   | 1 (2025) |   | 1200 |
-| 16 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Crazylegs *formerly known as* Crazy |   |   |   | 900 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Hodi |   |   |   | 900 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Chris-P-Bacon |   |   |   | 900 |
-| 19 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | VS8 |   |   |   | 720 |
-| 20 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Nordi |   |   |   | 450 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | El Beezonero |   |   |   | 450 |
-| 22 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Borst |   |   |   | 180 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Senf Sau Sebi |   |   |   | 180 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Teufel |   |   |   | 180 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Ace |   |   |   | 180 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Dr. Weizen |   |   |   | 180 |
-| 27 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Don G |   |   |   | 90 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Dr. Acula |   |   |   | 90 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Mr Sunny |   |   |   | 90 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Hardi |   |   |   | 90 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Ferdi |   |   |   | 90 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Nikita |   |   |   | 90 |
-| 33 <span style="font-size: small">(&#x1F195;)</span> | Coach Keiler *formerly known as* Keiler |   | 1 (2020) |   | 0 |
+| 1 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Sir Schlegl | 2 (2024, 2025) |   |   | 7160 |
+| 2 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Milos | 1 (2021) | 5 (2020, 2022, 2023, 2024, 2025) |   | 5680 |
+| 3 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Erich |   |   | 4 (2021, 2022, 2023, 2025) | 3985 |
+| 4 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Katerkönig |   | 1 (2024) |   | 3735 |
+| 5 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | White Eel | 1 (2024) |   |   | 3670 |
+| 6 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | BigVik | 2 (2020, 2021) | 1 (2022) | 1 (2025) | 3085 |
+| 7 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | DJ Borsten | 1 (2025) |   |   | 2540 |
+| 8 <span style="font-size: small">(<span style="color: #008450">▲</span>2)</span> | Arktos der fiese Schneemann |   |   |   | 2460 |
+| 9 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Mk |   |   | 1 (2024) | 2280 |
+| 10 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Dr. R. Andy *formerly known as* Randy, Die Hoden Gottes | 2 (2022, 2023) |   | 2 (2020, 2021) | 2135 |
+| 11 <span style="font-size: small">(<span style="color: #EFB700">-</span>)</span> | Flipper |   |   | 2 (2020, 2024) | 1815 |
+| 12 <span style="font-size: small">(<span style="color: #008450">▲</span>6)</span> | Ban der Bierbändiger |   |   |   | 1500 |
+| 13 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Huggi der Profi |   | 1 (2025) |   | 1200 |
+| 14 <span style="font-size: small">(<span style="color: #008450">▲</span>5)</span> | El Beezonero |   |   |   | 1050 |
+| 15 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-2)</span> | Crazylegs *formerly known as* Crazy |   |   |   | 720 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-2)</span> | Hodi |   |   |   | 720 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-2)</span> | Dr. Dörg | 1 (2023) | 1 (2021) |   | 720 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-2)</span> | Till | 1 (2022) |   | 1 (2023) | 720 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-2)</span> | Chris-P-Bacon |   |   |   | 720 |
+| 20 <span style="font-size: small">(&#x1F195;)</span> | Senf Sau Sebi |   |   |   | 500 |
+| 21 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Nordi |   |   |   | 360 |
+| 22 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Teufel |   |   |   | 180 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Ace |   |   |   | 180 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-1)</span> | Dr. Weizen |   |   |   | 180 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | WhoRainZone |   |   |   | 180 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Schluckspecht |   |   |   | 180 |
+| 27 <span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Borst |   |   |   | 90 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Mr Sunny |   |   |   | 90 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Hardi |   |   |   | 90 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Ferdi |   |   |   | 90 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(<span style="color: #B81D13">▼</span>-3)</span> | Nikita |   |   |   | 90 |
+| 32 <span style="font-size: small">(&#x1F195;)</span> | Coach Keiler *formerly known as* Keiler |   | 1 (2020) |   | 0 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Lugge | 1 (2020) |   |   | 0 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Richie |   |   |   | 0 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Heini |   | 2 (2021, 2023) | 1 (2022) | 0 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Jessi |   |   |   | 0 |
 | &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Laui |   |   |   | 0 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Don G |   |   |   | 0 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Dr. Acula |   |   |   | 0 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | VS8 |   |   |   | 0 |
 
 
 <!-- table tag end -->
@@ -60,28 +63,32 @@ _Cut-off date: 18.01.2026_
 
 <!-- season_table tag start -->
 
-| Rank | Player | Ranking points season 2025/2026|
+| Rank | Player | Ranking points season 2026/2027|
 |------|--------|-------------------------------:|
-| 1 <span style="font-size: small">(&#x1F195;)</span> | Milos | 500 |
-| 2 <span style="font-size: small">(&#x1F195;)</span> | Sir Schlegel | 300 |
-| 3 <span style="font-size: small">(&#x1F195;)</span> | Erich | 225 |
-| 4 <span style="font-size: small">(&#x1F195;)</span> | Arktos der fiese Schneemann | 180 |
-| 5 <span style="font-size: small">(&#x1F195;)</span> | Dr. R. Andy *formerly known as* Randy, Die Hoden Gottes | 90 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | White Eel | 90 |
-| 7 <span style="font-size: small">(&#x1F195;)</span> | BigVik | 45 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Flipper | 45 |
-| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Katerkönig | 45 |
+| 1 <span style="font-size: small">(&#x1F195;)</span> | Sir Schlegl | 1000 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Ban der Bierbändiger | 1000 |
+| 3 <span style="font-size: small">(&#x1F195;)</span> | Arktos der fiese Schneemann | 600 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | El Beezonero | 600 |
+| 5 <span style="font-size: small">(&#x1F195;)</span> | Senf Sau Sebi | 500 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | White Eel | 500 |
+| 7 <span style="font-size: small">(&#x1F195;)</span> | Erich | 360 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Katerkönig | 360 |
+| 9 <span style="font-size: small">(&#x1F195;)</span> | Milos | 180 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | BigVik | 180 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | WhoRainZone | 180 |
+| &nbsp;&nbsp;&nbsp;<span style="font-size: small">(&#x1F195;)</span> | Schluckspecht | 180 |
 
 
 <!-- season_table tag end -->
 
-## Season 23/24 podium
+<!-- div>## Season 23/24 podium
 
 | Rank | Player | Ranking points season 2023/2024|
 |------|--------|-------------------------------:|
 | 1🥇 | Sir Schlegel | 2500 |
 | 2🥈 | Milos | 2300 |
 | 3🥉 | Katerkönig | 2290 |
+<div-->
 
 <!-- div>
 | 1 <span style="font-size: small">(<span style="color: #008450">▲</span>4)</span> | Sir Schlegel | 2500 |
